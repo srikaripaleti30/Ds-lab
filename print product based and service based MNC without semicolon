@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main() {
+    if (printf("Product Based MNC and Service Based MNC\n")) {}
+    return 0;
+}
