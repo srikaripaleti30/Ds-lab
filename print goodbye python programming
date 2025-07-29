@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+void goodbye() __attribute__((constructor));
+void goodbye() {
+    printf("Goodbye to Python Programming\n");
+}
